@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6C79BAFB392D5D1F18A8783 /* Pods_foodvisorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C06560877692D8664FB4E41 /* Pods_foodvisorTests.framework */; };
+		DA8B103721EEE0F600526956 /* Aliment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8B103621EEE0F600526956 /* Aliment.swift */; };
+		DA8B103921EEE31F00526956 /* typeAliment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8B103821EEE31F00526956 /* typeAliment.swift */; };
 		DAAB08E321EE79E00011D1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB08E221EE79E00011D1F4 /* AppDelegate.swift */; };
 		DAAB08E521EE79E00011D1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB08E421EE79E00011D1F4 /* ViewController.swift */; };
 		DAAB08E821EE79E00011D1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAB08E621EE79E00011D1F4 /* Main.storyboard */; };
 		DAAB08EA21EE79E20011D1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAB08E921EE79E20011D1F4 /* Assets.xcassets */; };
 		DAAB08ED21EE79E20011D1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAB08EB21EE79E20011D1F4 /* LaunchScreen.storyboard */; };
 		DAAB08F821EE79E20011D1F4 /* foodvisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB08F721EE79E20011D1F4 /* foodvisorTests.swift */; };
+		DAF43E6721EEBC2300F46631 /* FoodsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF43E6621EEBC2300F46631 /* FoodsTableViewCell.swift */; };
+		DAF43E6921EEBC7300F46631 /* HealthyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF43E6821EEBC7300F46631 /* HealthyTableViewCell.swift */; };
+		DAF43E6B21EEBC8900F46631 /* AllCombinationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF43E6A21EEBC8900F46631 /* AllCombinationsTableViewCell.swift */; };
+		E1A8D947DBA48A59F85E7309 /* Pods_foodvisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8847EFC7A404DB040C80B05F /* Pods_foodvisor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3243E631F5943E2F9BCFCBB7 /* Pods-foodvisor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodvisor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foodvisor/Pods-foodvisor.debug.xcconfig"; sourceTree = "<group>"; };
+		5AAAD60DEE946270C60B27B9 /* Pods-foodvisorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodvisorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foodvisorTests/Pods-foodvisorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C06560877692D8664FB4E41 /* Pods_foodvisorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodvisorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E99670824C61F7ADCCFF5B /* Pods-foodvisor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodvisor.release.xcconfig"; path = "Pods/Target Support Files/Pods-foodvisor/Pods-foodvisor.release.xcconfig"; sourceTree = "<group>"; };
+		8847EFC7A404DB040C80B05F /* Pods_foodvisor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodvisor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC2D4D1126F2E27A73CD397 /* Pods-foodvisorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodvisorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-foodvisorTests/Pods-foodvisorTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA8B103621EEE0F600526956 /* Aliment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliment.swift; sourceTree = "<group>"; };
+		DA8B103821EEE31F00526956 /* typeAliment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeAliment.swift; sourceTree = "<group>"; };
 		DAAB08DF21EE79E00011D1F4 /* foodvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAB08E221EE79E00011D1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAAB08E421EE79E00011D1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +51,9 @@
 		DAAB08F321EE79E20011D1F4 /* foodvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAB08F721EE79E20011D1F4 /* foodvisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodvisorTests.swift; sourceTree = "<group>"; };
 		DAAB08F921EE79E20011D1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF43E6621EEBC2300F46631 /* FoodsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsTableViewCell.swift; sourceTree = "<group>"; };
+		DAF43E6821EEBC7300F46631 /* HealthyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyTableViewCell.swift; sourceTree = "<group>"; };
+		DAF43E6A21EEBC8900F46631 /* AllCombinationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCombinationsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A8D947DBA48A59F85E7309 /* Pods_foodvisor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C79BAFB392D5D1F18A8783 /* Pods_foodvisorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2464A9E988F106D5A347DF8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3243E631F5943E2F9BCFCBB7 /* Pods-foodvisor.debug.xcconfig */,
+				80E99670824C61F7ADCCFF5B /* Pods-foodvisor.release.xcconfig */,
+				5AAAD60DEE946270C60B27B9 /* Pods-foodvisorTests.debug.xcconfig */,
+				CFC2D4D1126F2E27A73CD397 /* Pods-foodvisorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B32F7ECFDAFD7539238A3F56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8847EFC7A404DB040C80B05F /* Pods_foodvisor.framework */,
+				7C06560877692D8664FB4E41 /* Pods_foodvisorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8B103521EEE0DF00526956 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA8B103621EEE0F600526956 /* Aliment.swift */,
+				DA8B103821EEE31F00526956 /* typeAliment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DAAB08D621EE79E00011D1F4 = {
 			isa = PBXGroup;
 			children = (
 				DAAB08E121EE79E00011D1F4 /* foodvisor */,
 				DAAB08F621EE79E20011D1F4 /* foodvisorTests */,
 				DAAB08E021EE79E00011D1F4 /* Products */,
+				2464A9E988F106D5A347DF8B /* Pods */,
+				B32F7ECFDAFD7539238A3F56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +128,16 @@
 		DAAB08E121EE79E00011D1F4 /* foodvisor */ = {
 			isa = PBXGroup;
 			children = (
+				DA8B103521EEE0DF00526956 /* Models */,
 				DAAB08E221EE79E00011D1F4 /* AppDelegate.swift */,
 				DAAB08E421EE79E00011D1F4 /* ViewController.swift */,
 				DAAB08E621EE79E00011D1F4 /* Main.storyboard */,
 				DAAB08E921EE79E20011D1F4 /* Assets.xcassets */,
 				DAAB08EB21EE79E20011D1F4 /* LaunchScreen.storyboard */,
 				DAAB08EE21EE79E20011D1F4 /* Info.plist */,
+				DAF43E6621EEBC2300F46631 /* FoodsTableViewCell.swift */,
+				DAF43E6821EEBC7300F46631 /* HealthyTableViewCell.swift */,
+				DAF43E6A21EEBC8900F46631 /* AllCombinationsTableViewCell.swift */,
 			);
 			path = foodvisor;
 			sourceTree = "<group>";
@@ -103,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAAB08FC21EE79E20011D1F4 /* Build configuration list for PBXNativeTarget "foodvisor" */;
 			buildPhases = (
+				F72D2EB8C0EBABC4E1E49868 /* [CP] Check Pods Manifest.lock */,
 				DAAB08DB21EE79E00011D1F4 /* Sources */,
 				DAAB08DC21EE79E00011D1F4 /* Frameworks */,
 				DAAB08DD21EE79E00011D1F4 /* Resources */,
+				0C17F0A02DFB91BA588EC9CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAAB08FF21EE79E20011D1F4 /* Build configuration list for PBXNativeTarget "foodvisorTests" */;
 			buildPhases = (
+				C85EEDD565445297B0A015D5 /* [CP] Check Pods Manifest.lock */,
 				DAAB08EF21EE79E20011D1F4 /* Sources */,
 				DAAB08F021EE79E20011D1F4 /* Frameworks */,
 				DAAB08F121EE79E20011D1F4 /* Resources */,
@@ -192,13 +250,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C17F0A02DFB91BA588EC9CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-foodvisor/Pods-foodvisor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-foodvisor/Pods-foodvisor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C85EEDD565445297B0A015D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodvisorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72D2EB8C0EBABC4E1E49868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodvisor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAAB08DB21EE79E00011D1F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8B103921EEE31F00526956 /* typeAliment.swift in Sources */,
+				DA8B103721EEE0F600526956 /* Aliment.swift in Sources */,
 				DAAB08E521EE79E00011D1F4 /* ViewController.swift in Sources */,
+				DAF43E6B21EEBC8900F46631 /* AllCombinationsTableViewCell.swift in Sources */,
+				DAF43E6721EEBC2300F46631 /* FoodsTableViewCell.swift in Sources */,
 				DAAB08E321EE79E00011D1F4 /* AppDelegate.swift in Sources */,
+				DAF43E6921EEBC7300F46631 /* HealthyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +480,7 @@
 		};
 		DAAB08FD21EE79E20011D1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3243E631F5943E2F9BCFCBB7 /* Pods-foodvisor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +500,7 @@
 		};
 		DAAB08FE21EE79E20011D1F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E99670824C61F7ADCCFF5B /* Pods-foodvisor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +520,7 @@
 		};
 		DAAB090021EE79E20011D1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAAD60DEE946270C60B27B9 /* Pods-foodvisorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -417,6 +542,7 @@
 		};
 		DAAB090121EE79E20011D1F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC2D4D1126F2E27A73CD397 /* Pods-foodvisorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
