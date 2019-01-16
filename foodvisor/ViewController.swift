@@ -27,7 +27,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         }else if(segmentedController.selectedSegmentIndex == 1){
             return self.healthyLst.count
         }else{
-            return 0
+            return self.allCombinationsLst.count
         }
         }
     
@@ -82,6 +82,48 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             return cell
         }else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "allCell") as! AllCombinationsTableViewCell
+            cell.nomEntree.text = self.allCombinationsLst[indexPath.row].entree.nom
+            cell.nomPlat.text = self.allCombinationsLst[indexPath.row].plat.nom
+            cell.nomDessert.text = self.allCombinationsLst[indexPath.row].dessert.nom
+            cell.nbrCaloriesEntree.text = self.allCombinationsLst[indexPath.row].entree.calories+"Kcal"
+            cell.nbrCaloriesPlat.text = self.allCombinationsLst[indexPath.row].plat.calories+"Kcal"
+            cell.nbrCaloriesDessert.text = self.allCombinationsLst[indexPath.row].dessert.calories+"Kcal"
+            cell.nbrTotalCalories.text = String(self.allCombinationsLst[indexPath.row].sumCal)+"Kcal"
+            var im:String!
+            im = self.allCombinationsLst[indexPath.row].entree.image
+            Alamofire.request(im).responseData { (response) in
+                if response.error == nil {
+                    if let data = response.data {
+                        cell.imgEntree.image = UIImage(data: data)
+                    }
+                }
+            }
+            im = self.allCombinationsLst[indexPath.row].plat.image
+            Alamofire.request(im).responseData { (response) in
+                if response.error == nil {
+                    if let data = response.data {
+                        cell.imgPlat.image = UIImage(data: data)
+                    }
+                }
+            }
+            im = self.allCombinationsLst[indexPath.row].dessert.image
+            Alamofire.request(im).responseData { (response) in
+                if response.error == nil {
+                    if let data = response.data {
+                        cell.imgDessert.image = UIImage(data: data)
+                    }
+                }
+            }
+            switch self.allCombinationsLst[indexPath.row].sumCal{
+            case 450...550:
+                cell.classement.text = "A"
+            case 400...600:
+                cell.classement.text = "B"
+            case 350...650:
+                cell.classement.text = "C"
+            default:
+                cell.classement.text = "D"
+            }
             return cell
         }
     }
