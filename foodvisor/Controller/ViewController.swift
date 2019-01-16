@@ -12,6 +12,7 @@ import SwiftyJSON
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
+    //les listes detaillées
     var alimentsLst: [Aliment] = Array()
     var entreesLst: [Aliment] = Array()
     var platsLst: [Aliment] = Array()
@@ -21,6 +22,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     @IBOutlet weak var segmentedController: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
     
+    //datasource et delegate de la tableview
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if(segmentedController.selectedSegmentIndex == 0){
         return self.alimentsLst.count
@@ -117,12 +119,16 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             switch self.allCombinationsLst[indexPath.row].sumCal{
             case 450...550:
                 cell.classement.text = "A"
+                cell.classement.textColor = UIColor.green
             case 400...600:
                 cell.classement.text = "B"
+                cell.classement.textColor = UIColor.cyan
             case 350...650:
                 cell.classement.text = "C"
+                cell.classement.textColor = UIColor.orange
             default:
                 cell.classement.text = "D"
+                cell.classement.textColor = UIColor.red
             }
             return cell
         }

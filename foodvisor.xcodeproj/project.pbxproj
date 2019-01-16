@@ -108,6 +108,24 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		DA8B103F21EF913200526956 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAF43E6621EEBC2300F46631 /* FoodsTableViewCell.swift */,
+				DAF43E6821EEBC7300F46631 /* HealthyTableViewCell.swift */,
+				DAF43E6A21EEBC8900F46631 /* AllCombinationsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA8B104021EF914800526956 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAAB08E421EE79E00011D1F4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		DAAB08D621EE79E00011D1F4 = {
 			isa = PBXGroup;
 			children = (
@@ -131,16 +149,14 @@
 		DAAB08E121EE79E00011D1F4 /* foodvisor */ = {
 			isa = PBXGroup;
 			children = (
+				DA8B104021EF914800526956 /* Controller */,
+				DA8B103F21EF913200526956 /* Views */,
 				DA8B103521EEE0DF00526956 /* Models */,
 				DAAB08E221EE79E00011D1F4 /* AppDelegate.swift */,
-				DAAB08E421EE79E00011D1F4 /* ViewController.swift */,
 				DAAB08E621EE79E00011D1F4 /* Main.storyboard */,
 				DAAB08E921EE79E20011D1F4 /* Assets.xcassets */,
 				DAAB08EB21EE79E20011D1F4 /* LaunchScreen.storyboard */,
 				DAAB08EE21EE79E20011D1F4 /* Info.plist */,
-				DAF43E6621EEBC2300F46631 /* FoodsTableViewCell.swift */,
-				DAF43E6821EEBC7300F46631 /* HealthyTableViewCell.swift */,
-				DAF43E6A21EEBC8900F46631 /* AllCombinationsTableViewCell.swift */,
 			);
 			path = foodvisor;
 			sourceTree = "<group>";
