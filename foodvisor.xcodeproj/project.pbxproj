@@ -10,6 +10,7 @@
 		A6C79BAFB392D5D1F18A8783 /* Pods_foodvisorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C06560877692D8664FB4E41 /* Pods_foodvisorTests.framework */; };
 		DA8B103721EEE0F600526956 /* Aliment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8B103621EEE0F600526956 /* Aliment.swift */; };
 		DA8B103921EEE31F00526956 /* typeAliment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8B103821EEE31F00526956 /* typeAliment.swift */; };
+		DA8B103B21EEFBFB00526956 /* Combinaison.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8B103A21EEFBFB00526956 /* Combinaison.swift */; };
 		DAAB08E321EE79E00011D1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB08E221EE79E00011D1F4 /* AppDelegate.swift */; };
 		DAAB08E521EE79E00011D1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB08E421EE79E00011D1F4 /* ViewController.swift */; };
 		DAAB08E821EE79E00011D1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAB08E621EE79E00011D1F4 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		CFC2D4D1126F2E27A73CD397 /* Pods-foodvisorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodvisorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-foodvisorTests/Pods-foodvisorTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA8B103621EEE0F600526956 /* Aliment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliment.swift; sourceTree = "<group>"; };
 		DA8B103821EEE31F00526956 /* typeAliment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeAliment.swift; sourceTree = "<group>"; };
+		DA8B103A21EEFBFB00526956 /* Combinaison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinaison.swift; sourceTree = "<group>"; };
 		DAAB08DF21EE79E00011D1F4 /* foodvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAB08E221EE79E00011D1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAAB08E421EE79E00011D1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				DA8B103621EEE0F600526956 /* Aliment.swift */,
 				DA8B103821EEE31F00526956 /* typeAliment.swift */,
+				DA8B103A21EEFBFB00526956 /* Combinaison.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				DAF43E6B21EEBC8900F46631 /* AllCombinationsTableViewCell.swift in Sources */,
 				DAF43E6721EEBC2300F46631 /* FoodsTableViewCell.swift in Sources */,
 				DAAB08E321EE79E00011D1F4 /* AppDelegate.swift in Sources */,
+				DA8B103B21EEFBFB00526956 /* Combinaison.swift in Sources */,
 				DAF43E6921EEBC7300F46631 /* HealthyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

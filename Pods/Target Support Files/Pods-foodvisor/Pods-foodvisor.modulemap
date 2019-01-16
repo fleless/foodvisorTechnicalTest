@@ -1,0 +1,6 @@
+framework module Pods_foodvisor {
+  umbrella header "Pods-foodvisor-umbrella.h"
+
+  export *
+  module * { export * }
+}
